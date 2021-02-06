@@ -1,0 +1,64 @@
+.text-betterware {
+    color: #00AEC7 !important;
+}
+
+#header img {
+    height: 60px;
+}
+
+.carousel-item {
+    transition: transform 1s ease, opacity .5s ease-out;
+}
+
+#main .carousel-inner img {
+    max-height: 50vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative !important;
+}
+
+#carousel .overlay {
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white !important;
+    z-index: 1;
+    /*display: none !important; //JBM: se oculta overlay con texto porque en este caso no se utilizará mostrar texto.*/
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#consultaCatalogos img {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#bazarProductos img {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#uneteEquipo img {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#footer {
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+
+#footer a {
+    color: white;
+}
