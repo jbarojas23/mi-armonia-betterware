@@ -11,7 +11,7 @@
 }
 
 #main .carousel-inner img {
-    width: 100vw;
+    height: 30vh;
     object-fit: fill;
     filter: grayscale(70%);
 }
